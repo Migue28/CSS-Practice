@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eff7fb;
+}
+.flex-container {
+    display: grid;
+    grid-template-rows: 232px auto;
+}
+
+.nav-bar-container {
+    display: flex;
+    background-color: #2b2d42;
+}
+
+.anime-card-container {
+    background-color: #fafcfc;
+}
+
+.season-name, .option-image{
+    color: #bcbedc;
+}
+
+.season-year, .option-name, .share-container {
+    color: #8b8fb6;
+}
