@@ -57,8 +57,33 @@ body {
     display: flex;
 }
 
+.anime-list-container {
+    display: flex;
+    justify-content: space-evenly
+}
+
 .anime-card-container {
     background-color: #fafcfc;
+    display: grid;
+    grid-template-columns: 185px 313.8px;
+    box-shadow: #8b8fb6 2px 2px 5px;
+    border-radius: 3px;
+}
+
+.anime-card-left {
+    display: grid;
+}
+
+.anime-card-right {
+    display: flex;
+}
+
+.anime-card-bottom {
+    display: flex;
+}
+
+.anime-image {
+    width: 100%;
 }
 
 .season-name, .option-image{
