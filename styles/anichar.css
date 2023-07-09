@@ -1,16 +1,60 @@
-body {
+* {
     margin: 0;
     padding: 0;
-    background-color: #eff7fb;
 }
+
+body {
+    background-color: #eff7fb;;
+}
+
 .flex-container {
     display: grid;
     grid-template-rows: 232px auto;
+    grid-template-columns: 1fr;
 }
 
 .nav-bar-container {
-    display: flex;
+    display: grid;
     background-color: #2b2d42;
+    grid-template-columns: 0.5fr 2fr 1fr;
+}
+
+.logo-tv-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seasons-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.season-year-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.season-name {
+    font-weight: 700;
+}
+
+.season-name, .season-year {
+    text-align: center;
+}
+
+.settings-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.options-container, .share-container{
+    display: flex;
 }
 
 .anime-card-container {
@@ -19,6 +63,11 @@ body {
 
 .season-name, .option-image{
     color: #bcbedc;
+}
+
+.tv-text, .logo {
+    color: #fff;
+    font-size: 1.5rem;
 }
 
 .season-year, .option-name, .share-container {
